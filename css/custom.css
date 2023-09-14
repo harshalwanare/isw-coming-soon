@@ -259,6 +259,20 @@ a:focus{
 	margin-top: 16px;
 }
 
+a.whatsapp-button {
+	display: inline-block;
+	padding: 6px 15px;
+	background-color: #25d366;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+	a.whatsapp-button img {
+		vertical-align: middle;
+		margin-right: 10px;
+	}
 /* for mobile */
 @media screen and (max-width: 767px) {
 	.whatsapp-icon {
