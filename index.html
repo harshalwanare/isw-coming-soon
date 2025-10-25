@@ -119,9 +119,9 @@
     <!-- Timer counter start -->
     <script>
         $(document).ready(function () {
-            var myDate = new Date("10/01/2023");
+            var myDate = new Date("10/25/2023");
             //var myDate = new Date();
-            myDate.setDate(myDate.getDate() + 30);
+            myDate.setDate(myDate.getDate() + 120);
             $("#countdown").countdown(myDate, function (event) {
                 $(this).html(
                     event.strftime(
